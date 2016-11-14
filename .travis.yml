@@ -13,6 +13,6 @@ android:
   licenses:
     - 'android-sdk-license-.+'
     - 'google-gdk-license-.+'
-script: ./gradlew test --stacktrace
+script: ./gradlew test --stacktrace --debug
 notifications:
   slack: globo:F1iVlyrzR4iX8OS7h8fwMcqx
